@@ -27,6 +27,7 @@ This project follows a modular structure (inspired by Clean Architecture) to sep
 └── main.go         # Application entry point
 
 ## 🚀 Technical Stack
+```text
 Language: Go (Golang)
 Web Framework: Echo
 Database: MySQL
