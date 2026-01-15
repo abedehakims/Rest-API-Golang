@@ -25,21 +25,21 @@ This project follows a modular structure (inspired by Clean Architecture) to sep
 ├── routes/         # API route definitions
 ├── middleware/     # Custom middleware (Auth, Logger)
 └── main.go         # Application entry point
+```
 
 ## 🚀 Technical Stack
-```text
 Language: Go (Golang)
 Web Framework: Echo
 Database: MySQL
 Documentation: Youtube and Echo framework Docs
 
 ## 📡 API Endpoints
-Method,Endpoint,Description,Auth Required
-GET,/api/v1/items,Fetch all records,No
-POST,/api/v1/items,Create a new record,Yes
-GET,/api/v1/items/:id,Get details of a specific record,No
-PUT,/api/v1/items/:id,Update an existing record,Yes
-DELETE,/api/v1/items/:id,Remove a record,Yes
+* Method,Endpoint,Description,Auth Required
+* GET,/api/v1/items,Fetch all records,No
+* POST,/api/v1/items,Create a new record,Yes
+* GET,/api/v1/items/:id,Get details of a specific record,No
+* PUT,/api/v1/items/:id,Update an existing record,Yes
+* DELETE,/api/v1/items/:id,Remove a record,Yes
 
 ## 🏁 Getting Started
   * **Prerequisites**
@@ -49,20 +49,24 @@ DELETE,/api/v1/items/:id,Remove a record,Yes
   * **Installation**
   ```bash
   git clone [https://github.com/abedehakims/Rest-API-Golang.git](https://github.com/abedehakims/Rest-API-Golang.git)
+  ```
 
   * **Install dependencies:**
   ```bash
   go mod tidy
+  ```
   Set up Environment Variables: Create a .env file and configure your database URL and server port.
 
   * **Run the server:**
   ```bash
   go run main.go
+  ```
 
   * **🧪 Testing**
   To run the automated tests for this API:
 
   ```bash
   go test ./... -v
+  ```
 
 **Developed with ❤️ by Abede Hakims**
