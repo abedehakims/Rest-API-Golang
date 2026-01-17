@@ -28,10 +28,10 @@ This project follows a modular structure (inspired by Clean Architecture) to sep
 ```
 
 ## 🚀 Technical Stack
-Language: Go (Golang)
-Web Framework: Echo
-Database: MySQL
-Documentation: Youtube and Echo framework Docs
+* Language: Go (Golang) 1.25.3 ver
+* Backend Framework: Echo, high-performance web framework for building robust and scalable applications in Go
+* Database: MySQL, open source relational database management system (RDBMS) that’s used to store and manage data. Its reliability, performance, scalability, and manipulate structured data
+* Documentation: Youtube and Echo framework Docs
 
 ## 📡 API Endpoints
 * Method,Endpoint,Description,Auth Required
